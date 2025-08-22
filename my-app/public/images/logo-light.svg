@@ -1,0 +1,18 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crown -->
+  <g transform="translate(10, 5)">
+    <circle cx="5" cy="8" r="2" fill="#F5DEB3"/>
+    <circle cx="12" cy="5" r="2.5" fill="#F5DEB3"/>
+    <circle cx="19" cy="8" r="2" fill="#F5DEB3"/>
+    <path d="M2 10 L7 8 L12 6 L17 8 L22 10 L22 12 L2 12 Z" fill="#F5DEB3"/>
+  </g>
+  
+  <!-- BOUTIQUE Text -->
+  <text x="45" y="25" font-family="serif" font-size="18" font-weight="bold" fill="#FFFFFF">BOUTIQUE</text>
+  
+  <!-- Style Text -->
+  <text x="145" y="20" font-family="cursive" font-size="16" font-style="italic" fill="#F5DEB3">Style</text>
+  
+  <!-- Subtitle -->
+  <text x="45" y="45" font-family="sans-serif" font-size="10" font-weight="300" letter-spacing="2px" fill="#E5E5E5">ROUPAS & CALÇADOS</text>
+</svg>

@@ -1,0 +1,64 @@
+# Robots.txt para Boutique Store
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Páginas importantes
+Allow: /produtos
+Allow: /categorias
+Allow: /sobre
+Allow: /contato
+
+# Bloquear páginas administrativas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/
+
+# Bloquear páginas de usuário
+Disallow: /perfil/
+Disallow: /conta/
+Disallow: /carrinho/
+Disallow: /checkout/
+
+# Bloquear arquivos e diretórios técnicos
+Disallow: /_next/
+Disallow: /static/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /offline
+
+# Permitir crawlers de redes sociais
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Bloquear bots maliciosos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://boutique-store.com/sitemap.xml
+Sitemap: https://boutique-store.com/sitemap-products.xml
+Sitemap: https://boutique-store.com/sitemap-categories.xml
+
+# Crawl-delay para bots pesados
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: Slurp
+Crawl-delay: 1

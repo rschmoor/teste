@@ -1,0 +1,7 @@
+/* Placeholder for Inter Variable Font */
+/* This is a placeholder file. In production, you would:
+   1. Download the actual Inter Variable font from https://rsms.me/inter/
+   2. Place the .woff2 file here
+   3. Or use next/font/google to load Inter automatically */
+
+/* For now, the system will fall back to system fonts as defined in CSS */
